@@ -1,0 +1,12 @@
+{
+  "name": "docs",
+  "private": true,
+  "packageManager": "pnpm@10.11.0",
+  "scripts": {
+    "dev": "mintlify dev --port 3004",
+    "lint": "mintlify broken-links"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
