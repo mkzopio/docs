@@ -39,7 +39,9 @@ You can update the dependency versions in all your `package.json` files with the
 pnpm bump-deps
 ```
 
-This command only updates the `package.json` files. Run `pnpm install` (or `pnpm install -r`) afterward to actually install the upgraded versions.
+This command only updates the `package.json` files.
+Run `pnpm install` (or `pnpm install -r`) afterward to actually install the upgraded versions.
+
 
 <Tip>You should run a `pnpm build` after running `bump-deps` to ensure the project builds correctly. You should also run `pnpm dev` and ensure the project runs correctly in runtime.</Tip>
 
